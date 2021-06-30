@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path="C:\\Users\\shan2\\Downloads\\Selejars\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\Users\\Mandalorian\\Downloads\\Selejars\\chromedriver.exe")
 
 driver.get("https://www.google.com/maps/")
 driver.maximize_window()
