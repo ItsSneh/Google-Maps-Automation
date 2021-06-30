@@ -3,7 +3,7 @@ import time
 
 driver = webdriver.Chrome(executable_path="C:\\Users\\shan2\\Downloads\\Selejars\\chromedriver.exe")
 
-driver.get("https://www.google.com/maps/@12.8412514,80.2209766,15z")
+driver.get("https://www.google.com/maps/")
 driver.maximize_window()
 time.sleep(2)
 
